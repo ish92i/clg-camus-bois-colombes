@@ -1,0 +1,11 @@
+{
+      "recommendations": [
+        "esbenp.prettier-vscode",
+        "dbaeumer.vscode-eslint",
+        "pkief.material-icon-theme",
+        "pmndrs.pmndrs",
+        "pomdtr.excalidraw-editor"
+      ],
+      "unwantedRecommendations": []
+    }
+    

@@ -1,3 +1,62 @@
 {
-  "tailwindCSS.experimental.configFile": "packages/ui/src/styles/globals.css"
+  "editor.tabSize": 6,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.minimap.enabled": false,
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.organizeImports": "explicit"
+  },
+  "workbench.editor.limit.value": 6,
+  "workbench.editor.limit.enabled": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "files.autoSave": "onFocusChange",
+  "editor.fontFamily": "CommitMonoV138",
+  "git.confirmSync": false,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true
+  },
+  "files.associations": {
+    ".env*": "dotenv",
+    "*.gql": "graphql",
+    "*.plist": "xml",
+    "*.mod": "yaml"
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "poimandres",
+  "workbench.activityBar.location": "top",
+  "editor.inlineSuggest.suppressSuggestions": true,
+  "git.openRepositoryInParentFolders": "always",
+  "security.workspace.trust.untrustedFiles": "newWindow",
+  "git.enableSmartCommit": true,
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "window.zoomLevel": 1,
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "workbench.sideBar.location": "right",
+  "explorer.fileNesting.patterns": {
+    "*.ts": "${capture}.js",
+    "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+    "*.jsx": "${capture}.js",
+    "*.tsx": "${capture}.ts",
+    "tsconfig.json": "tsconfig.*.json",
+    "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml",
+    "*.sqlite": "${capture}.${extname}-*",
+    "*.db": "${capture}.${extname}-*",
+    "*.sqlite3": "${capture}.${extname}-*",
+    "*.db3": "${capture}.${extname}-*",
+    "*.sdb": "${capture}.${extname}-*",
+    "*.s3db": "${capture}.${extname}-*"
+  },
+  "svg.preview.mode": "svg",
+  "terminal.integrated.inheritEnv": false,
+  "excalidraw.theme": "dark",
+  "application.shellEnvironmentResolutionTimeout": 60
 }
