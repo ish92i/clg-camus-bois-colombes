@@ -1,6 +1,7 @@
 import { Roboto_Condensed, Roboto_Mono, Yrsa } from "next/font/google";
 import "./globals.css";
 import metadata, { jsonLd } from "./metadata";
+import { Providers } from "../lib/providers";
 
 export { metadata };
 
@@ -29,8 +30,10 @@ export default function RootLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
-        {children}
-      </body>
-    </html>
-  );
+        <Providers>
+      {children}
+    </Providers>
+  </body>
+</html>
+);
 }
