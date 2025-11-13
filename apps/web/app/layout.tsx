@@ -22,7 +22,7 @@ const robotoMono = Roboto_Mono({
 
 export default function RootLayout({
   children,
-}: Readonly<{ children: React.ReactNode }>) {
+}: Readonly<{ children: React.ReactNode }>): JSX.Element {
   return (
     <html lang="fr">
       <body className={`${roboto.variable} ${yrsa.variable} ${robotoMono.variable} antialiased`} suppressHydrationWarning={true}>
