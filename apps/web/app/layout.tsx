@@ -25,7 +25,7 @@ export default function RootLayout({
 }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="fr">
-      <body className={`${roboto.variable} ${yrsa.variable} ${robotoMono.variable} antialiased`}>
+      <body className={`${roboto.variable} ${yrsa.variable} ${robotoMono.variable} antialiased`} suppressHydrationWarning={true}>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
