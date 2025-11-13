@@ -1,7 +1,7 @@
 import { Roboto_Condensed, Roboto_Mono, Yrsa } from "next/font/google";
-import "./globals.css";
-import metadata, { jsonLd } from "./metadata";
 import { Providers } from "../lib/providers";
+import "@workspace/ui/globals.css";
+import metadata, { jsonLd } from "./metadata";
 
 export { metadata };
 
